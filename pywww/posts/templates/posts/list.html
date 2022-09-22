@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PyWWW Posts List</title>
+</head>
+<body>
+{% load posts_extras %}
+<h1>Posts List</h1>
+<ul>
+    {% for post in posts_list %}
+        <li>{{ post }}
+            (signs: {% count_signs post.content %},
+            words: {% count_words post.content %})
+
+        </li>
+    {% endfor %}
+</ul>
+</body>
+</html>
