@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Mam na imię {{ first_name }}</h1>
+    <div>
+        <p>Wiek: {{ age }}</p>
+    </div>
+    <h2>Dzieci</h2>
+    {% for child in children %}
+        <li>{{ child }}</li>
+    {% endfor %}
+    <h2>Programuję w: </h2>
+    <ol>
+        {% for language, level in programming_languages.items %}
+        <li>{{ language }} {{ level }}</li>
+        {% endfor %}
+    </ol>
+</body>
+</html>
