@@ -1,0 +1,62 @@
+[
+{
+  "model": "posts.post",
+  "pk": 1,
+  "fields": {
+    "title": "Kurka wodna",
+    "content": "\"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\"",
+    "published": true,
+    "created": "2022-09-22T15:56:05.450Z",
+    "modified": "2022-09-22T15:56:05.450Z",
+    "sponsored": false
+  }
+},
+{
+  "model": "posts.post",
+  "pk": 2,
+  "fields": {
+    "title": "Markowy Dres",
+    "content": "\"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\"\r\n\r\n\"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\"",
+    "published": true,
+    "created": "2022-09-22T15:56:14.793Z",
+    "modified": "2022-09-22T15:56:14.793Z",
+    "sponsored": false
+  }
+},
+{
+  "model": "posts.post",
+  "pk": 3,
+  "fields": {
+    "title": "Łysy to chuj",
+    "content": "Bo jest łysy",
+    "published": true,
+    "created": "2022-09-22T16:44:53.549Z",
+    "modified": "2022-09-22T16:44:53.549Z",
+    "sponsored": false
+  }
+},
+{
+  "model": "posts.post",
+  "pk": 4,
+  "fields": {
+    "title": "test",
+    "content": "111111111",
+    "published": true,
+    "created": "2022-10-11T22:10:28.804Z",
+    "modified": "2022-10-11T22:10:28.804Z",
+    "sponsored": false
+  }
+},
+{
+  "model": "posts.post",
+  "pk": 5,
+  "fields": {
+    "title": "Testowy sponsorowany post",
+    "content": "Lorem ipsum bla bla bla",
+    "published": true,
+    "created": "2022-10-30T13:55:22.451Z",
+    "modified": "2022-10-30T13:55:22.451Z",
+    "sponsored": true
+  }
+}
+]

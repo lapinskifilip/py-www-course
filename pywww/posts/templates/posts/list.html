@@ -10,6 +10,9 @@
 <ul>
     {% for post in posts_list %}
         <li>{{ post }}
+            {% if post.sponsored %}
+                [Sponsored]
+            {% endif %}
             (signs: {% count_signs post.content %},
             words: {% count_words post.content %})
 
