@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% load static %}
+
+    {% block content %}
+    <h2>Books List <img src="{% static 'books/img/book.png' %}" width="32px" height="32px" alt="book icon"></h2>
+      <ul class="list-group">
+        {% for book in books_list %}
+            <li class="list-group-item">
+                <a href="{% url 'books:details' book.id %}">{{ book }}</a> {{ book.publication_year }}
+            {% if book.avaliable %}
+                    [Avaliable]
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+    {% endblock content %}

@@ -7,3 +7,6 @@ class Book(models.Model):
     author = models.CharField(max_length=300)
     avaliable = models.BooleanField(default=True)
 
+    def __str__(self):
+        return f"{self.title}"
+

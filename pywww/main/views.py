@@ -1,8 +1,11 @@
-from django.shortcuts import render
-from django.http import HttpResponse
 
-def hello_world(request):
-    return HttpResponse("Hello World xx")
+from django.shortcuts import render
+
+def homepage(request):
+    return render(request, "main/homepage.html", context = {})
+
+def about(request):
+    return render(request, "main/about.html", context = {})
 
 def some_tests(request):
     age = 33

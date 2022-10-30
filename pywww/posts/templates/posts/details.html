@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>xx</title>
-</head>
-<body>
-{{ post_details.title }}
+{% extends "base.html" %}
 
-{{ post_details.content }}
-</body>
-</html>
+    {% block content %}
+        <h2>{{ post_details.title }}</h2>
+
+        <p>{{ post_details.content }}</p>
+    {% endblock content %}

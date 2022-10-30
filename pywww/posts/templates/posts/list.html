@@ -1,23 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>PyWWW Posts List</title>
-</head>
-<body>
-{% load posts_extras %}
-<h1>Posts List</h1>
-<ul>
-    {% for post in posts_list %}
-        <li>{{ post }}
+{% extends "base.html" %}
+{% load static %}
+
+    {% block content %}
+    {% load posts_extras %}
+    <h2>Posts List <img src="{% static 'posts/img/mail.png' %}" width="32px" height="32px" alt="mail icon"></h2>
+    <ul class="list-group">
+        {% for post in posts_list %}
+        <li class="list-group-item">
+            <a href="{% url 'posts:details' post.id %}">{{ post }}</a>
             {% if post.sponsored %}
                 [Sponsored]
             {% endif %}
             (signs: {% count_signs post.content %},
             words: {% count_words post.content %})
-
         </li>
-    {% endfor %}
-</ul>
-</body>
-</html>
+        {% endfor %}
+      </ul>
+    {% endblock content %}
