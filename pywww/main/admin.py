@@ -3,4 +3,4 @@ from main.models import UserProfile
 
 @admin.register(UserProfile)
 class UserProfileAdmin(admin.ModelAdmin):
-    pass
+    list_display = ["user", "bio"]
