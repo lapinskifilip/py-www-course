@@ -6,7 +6,7 @@
       <ul class="list-group">
         {% for book in books_list %}
             <li class="list-group-item">
-                <a href="{% url 'books:details' book.id %}">{{ book }}</a> {{ book.publication_year }}
+                <a href="{% url 'books:details' book.id %}">{{ book.title }}</a> {{ book.publication_year }}
             {% if book.avaliable %}
                     [Avaliable]
                 {% endif %}
